@@ -12,9 +12,11 @@ import Component from "./index";
 
 const node = document.getElementById("app");
 
+const emojiName = (new URL(location)).searchParams.get("emojiName") || "sweat_smile"
+
 const App = () => (
   <MockBlockDock>
-    <Component entityId="test-block-1" emojiName="flag-us" />
+    <Component entityId="test-block-1" emojiName={emojiName} />
   </MockBlockDock>
 );
 
