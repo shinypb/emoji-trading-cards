@@ -1,7 +1,7 @@
 {
-  "name": "trading-card",
+  "name": "emoji-trading-cards",
   "version": "0.0.0",
-  "description": "trading-card block",
+  "description": "emoji-trading-cards block",
   "keywords": [
     "blockprotocol",
     "blocks"
