@@ -59,6 +59,13 @@
   },
   "blockprotocol": {
     "displayName": "Emoji Trading Card",
-    "icon": "public/1F605.svg"
+    "examples": [
+      { "emojiName": "sweat_smile" },
+      { "emojiName": "cool" },
+      { "emojiName": "fries" },
+      { "emojiName": "flag-ca" }
+    ],
+    "icon": "public/1F605.svg",
+    "preview": "public/preview256.png"
   }
 }
