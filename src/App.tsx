@@ -101,7 +101,7 @@ export const App: BlockComponent<AppProps> = ({ emojiName }) => {
   const [emoji, descriptionOrEmpty, categoryIndex] = packedData
   const category = DATA.categories[categoryIndex]
 
-  const displayName = emojiName.split('_').map(word => `${word[0].toUpperCase()}${word.slice(1)}`).join(' ')
+  const displayName = emojiName.split(/[_-]/).map(word => `${word[0].toUpperCase()}${word.slice(1)}`).join(' ')
 
   // If description is omitted, that means it's the same as the name of the emoji -- transform it to make it look nicer
   const description = descriptionOrEmpty || `${emojiName[0].toUpperCase()}${emojiName.replace(/_/g, ' ').toLowerCase().slice(1)}`
