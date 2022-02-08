@@ -66,6 +66,6 @@
       { "emojiName": "flag-ca" }
     ],
     "icon": "public/1F605.svg",
-    "preview": "public/preview256.png"
+    "image": "public/preview256.png"
   }
 }
